@@ -22,6 +22,7 @@ body {
 .headerContainer1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 
 }
 
@@ -39,3 +40,30 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+.headerContainer2 {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    flex-wrap: wrap;
+
+}
+
+.headerText {
+
+    font-size: 48px;
+    font-weight: 950;
+}
+
+button.headerButton {
+    display: flex;
+    flex-shrink: 0;
+    
+}
+
+.sub {
+
+    display: flex;
+    flex-direction: column;
+}
+
