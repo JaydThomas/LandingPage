@@ -68,5 +68,8 @@ button.headerButton {
 
     display: flex;
     flex-direction: column;
+    height: auto;
+    max-width: 50%;
+    overflow-wrap: break-word;
 }
 
