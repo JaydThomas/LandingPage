@@ -4,18 +4,19 @@ body {
     color: black;
     display: flex;
     flex-direction: column;
-
-    
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding-top: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     color: #e5e7eb;
+    max-height: 350px;
+    padding-bottom: 30px;
   
 }
 
