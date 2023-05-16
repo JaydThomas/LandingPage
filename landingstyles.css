@@ -78,7 +78,7 @@ button.headerButton {
 .firstBody {
     display: flex;
     flex-direction: column;
-    background-color: bisque;
+    padding: 25px;
     
 }
 
@@ -101,10 +101,57 @@ button.headerButton {
     border: solid lightblue 2px;
     padding: 50px;
     border-radius: 5px;
-    max-width: 100px;
+    
 }
 .text-item {
     text-align: center;
     margin-top: 10px;
+}
+
+.secondBody {
+
+    display: flex;
+    font-weight: 700;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 75px;
+    
+    
+}
+
+
+.flexme {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: flex-end;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+
+}
+
+.footerContainer {
+
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.thirdParagraph {
+
+    display: flex;
+    padding: 75px;
+    flex-direction: column;
+  
+    
+
 }
 
