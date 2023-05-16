@@ -74,3 +74,37 @@ button.headerButton {
     overflow-wrap: break-word;
 }
 
+
+.firstBody {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    
+}
+
+.midHeader {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+      
+}
+
+.box {
+    border: solid lightblue 2px;
+    padding: 50px;
+    border-radius: 5px;
+    max-width: 100px;
+}
+.text-item {
+    text-align: center;
+    margin-top: 10px;
+}
+
