@@ -15,7 +15,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     color: #e5e7eb;
-    max-height: 350px;
+    flex-basis: 100%;
     padding-bottom: 30px;
   
 }
@@ -56,6 +56,7 @@ a {
 
     display: flex;
     font-size: 48px;
+    font-weight: 700;
  
 }
 
@@ -119,24 +120,34 @@ button.headerbutton {
 }
 
 
-.nameofperson {
-    
-    align-self: flex-end;
-    font-weight: 700;
-    
-}
-
-
 .flexme {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 50;
   color: #1F2937;
- 
+  
+}
+
+
+.secondparagraph {
+
+justify-content: center;
+font-size: 36px;
+margin-bottom: 10px;
 
 }
+
+.nameofperson {
+    
+
+    font-weight: 700;
+
+    margin-left: 300px;
+    
+}
+
 
 .footercontainer {
 
