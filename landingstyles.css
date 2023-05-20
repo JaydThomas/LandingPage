@@ -7,15 +7,13 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
     display: flex;
+    background-color: #1F2937;
     flex-direction: column;
     padding-top: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 100px;
     padding-right: 100px;
     color: #e5e7eb;
-    flex-basis: 100%;
     padding-bottom: 30px;
   
 }
@@ -43,25 +41,25 @@ a {
 }
 
 .headercontainer2 {
-    display: flex;
+
     justify-content: space-between;
     align-items: flex-start;
     overflow: hidden;
-    margin-top: -30px;
+   
 
 
 }
 
 .headertext {
 
-    display: flex;
+
     font-size: 48px;
     font-weight: 700;
  
 }
 
 button.headerbutton {
-    display: flex;
+   
     flex-shrink: 0;
     
 }
