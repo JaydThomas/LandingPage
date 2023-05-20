@@ -20,7 +20,7 @@ body {
   
 }
 
-.headerContainer1 {
+.headercontainer1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -42,7 +42,7 @@ a {
     color: #e5e7eb;
 }
 
-.headerContainer2 {
+.headercontainer2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -52,14 +52,14 @@ a {
 
 }
 
-.headerText {
+.headertext {
 
     display: flex;
     font-size: 48px;
  
 }
 
-button.headerButton {
+button.headerbutton {
     display: flex;
     flex-shrink: 0;
     
@@ -75,14 +75,14 @@ button.headerButton {
 }
 
 
-.firstBody {
+.firstbody {
     display: flex;
     flex-direction: column;
     padding: 25px;
     
 }
 
-.midHeader {
+.midheader {
     align-self: center;
     font-size: 36px;
     font-weight: 700;
@@ -98,9 +98,10 @@ button.headerButton {
 }
 
 .box {
-    border: solid lightblue 2px;
+    border: solid #3882F6 2px;
     padding: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
+    
     
 }
 .text-item {
@@ -108,30 +109,36 @@ button.headerButton {
     margin-top: 10px;
 }
 
-.secondBody {
+.secondbody {
 
     display: flex;
     font-weight: 700;
     background-color: #E5E7EB;
     justify-content: center;
     padding: 75px;
+}
+
+
+.nameofperson {
     
+    align-self: flex-end;
+    font-weight: 700;
     
 }
 
 
 .flexme {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    justify-content: flex-end;
-    font-style: italic;
-    font-weight: 100;
-    color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+ 
 
 }
 
-.footerContainer {
+.footercontainer {
 
     display: flex;
     justify-content: center;
@@ -142,16 +149,52 @@ button.headerButton {
     border-radius: 5px;
     
     
-    
 }
 
-.thirdParagraph {
+.thirdparagraph {
 
     display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
     padding: 75px;
-    flex-direction: column;
-  
-    
+
 
 }
 
+.textbox {
+    flex-direction: column;
+    flex-basis: 65%;
+    flex-wrap: wrap;
+    
+    
+}
+
+.footerparagraph {
+  
+    color: white;
+    font-size: 14px;
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.footerbutton {
+
+    align-self: flex-end;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    
+}
+
+.footerheader {
+    color: white;
+    font-weight: 700;
+}
+
+button {
+    background-color: #3882F6;
+    border: solid white 1px;
+    color: white;
+    width: 85px;
+    border-radius: 3px;
+    padding: 3px;
+}
