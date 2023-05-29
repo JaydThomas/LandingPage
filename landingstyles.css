@@ -96,16 +96,21 @@ a {
     justify-content: center;
     padding: 20px;
     gap: 20px;
-   
-      
 }
 
 .box {
+     
     border: solid #3882F6 2px;
     padding: 50px;
     border-radius: 10px; 
     
-    
+}
+
+.flex-wrap {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
     
 }
 .text-item {
