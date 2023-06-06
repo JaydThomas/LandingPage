@@ -95,13 +95,13 @@ a {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
-    gap: 20px;
+    gap: 100px;
 }
 
 .box {
      
     border: solid #3882F6 2px;
-    padding: 50px;
+    padding: 75px;
     border-radius: 10px; 
     
 }
@@ -111,6 +111,7 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 100px;
+    align-items: center;
     
 }
 .text-item {
@@ -158,6 +159,7 @@ margin-bottom: 10px;
     background-color: #3882f6;
     margin: 50px;
     border-radius: 5px;
+    width: 745px;
 }
 
 .thirdparagraph {
@@ -172,6 +174,12 @@ margin-bottom: 10px;
     flex-direction: column;
     flex-basis: 65%;
     flex-wrap: wrap;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
 }
 
 .footerparagraph {
